@@ -26,14 +26,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1A057EFE1CCBFCE3003B282D /* ZigZag_hackathon_AIU2016.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZigZag_hackathon_AIU2016.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A057EFE1CCBFCE3003B282D /* ZigZag_hackathon_AIU2016.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = ZigZag_hackathon_AIU2016.app; path = "/Users/suhabaobaid/Documents/Swift/XcodeFiles/ZigZag_hackathon_AIU2016/build/Debug-iphoneos/ZigZag_hackathon_AIU2016.app"; sourceTree = "<absolute>"; };
 		1A057F011CCBFCE3003B282D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1A057F031CCBFCE3003B282D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1A057F061CCBFCE3003B282D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1A057F081CCBFCE3003B282D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A057F0B1CCBFCE3003B282D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A057F0D1CCBFCE3003B282D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1A057F121CCBFCE4003B282D /* ZigZag_hackathon_AIU2016Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZigZag_hackathon_AIU2016Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A057F121CCBFCE4003B282D /* ZigZag_hackathon_AIU2016Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ZigZag_hackathon_AIU2016Tests.xctest; path = "/Users/suhabaobaid/Documents/Swift/XcodeFiles/ZigZag_hackathon_AIU2016/build/Debug-iphoneos/ZigZag_hackathon_AIU2016Tests.xctest"; sourceTree = "<absolute>"; };
 		1A057F161CCBFCE4003B282D /* ZigZag_hackathon_AIU2016Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZigZag_hackathon_AIU2016Tests.swift; sourceTree = "<group>"; };
 		1A057F181CCBFCE4003B282D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -61,17 +61,7 @@
 			children = (
 				1A057F001CCBFCE3003B282D /* ZigZag_hackathon_AIU2016 */,
 				1A057F151CCBFCE4003B282D /* ZigZag_hackathon_AIU2016Tests */,
-				1A057EFF1CCBFCE3003B282D /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		1A057EFF1CCBFCE3003B282D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				1A057EFE1CCBFCE3003B282D /* ZigZag_hackathon_AIU2016.app */,
-				1A057F121CCBFCE4003B282D /* ZigZag_hackathon_AIU2016Tests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		1A057F001CCBFCE3003B282D /* ZigZag_hackathon_AIU2016 */ = {
@@ -163,7 +153,7 @@
 				Base,
 			);
 			mainGroup = 1A057EF51CCBFCE3003B282D;
-			productRefGroup = 1A057EFF1CCBFCE3003B282D /* Products */;
+			productRefGroup = 1A057EF51CCBFCE3003B282D;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -332,6 +322,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "suha.ZigZag-hackathon-AIU2016";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -343,6 +334,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "suha.ZigZag-hackathon-AIU2016";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
